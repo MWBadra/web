@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 
 const connectDB = async () => {
   try {
-    const uri = "mongodb+srv://MohamedBadra:MohamedBadra@egyptiancolumbianbank.nxnclud.mongodb.net/?appName=EgyptianColumbianBank";
+    const uri = "mongodb+srv://username:password@egyptiancolumbianbank.nxnclud.mongodb.net/?appName=EgyptianColumbianBank";
     
     await mongoose.connect(uri);
     console.log("MongoDB Connected Successfully!");
