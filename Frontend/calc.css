@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+
+h2 {
+  text-align: center;
+}
+
+#displaytext {
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 10px auto;
+  text-align: right;
+  font-size: 20px;
+  padding: 5px;
+  background-color: white;
+
+}
+
+div {
+  text-align: center;
+  margin: 5px;
+}
+.operation{
+    background-color: orange;
+  
+}
+button {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  font-size: 16px;
+  background-color: #a5a5a5;
+  border: none;
+  border-radius: 50%;
+}
+ 

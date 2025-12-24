@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculator</title>
+<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+<h2>Calculator</h2>
+
+<div id="displaytext"></div>
+
+<div id="operations">
+  <button class="operation" onclick="AC()">AC</button>
+  <button class="operation" >+/-</button>
+  <button class="operation"  onclick="operationsfunc('%')">%</button>
+  <button class="operation" onclick="operationsfunc('/')">/</button>
+</div>
+
+<div>
+  <button onclick="displaytext('7')">7</button>
+  <button onclick="displaytext('8')">8</button>
+  <button onclick="displaytext('9')">9</button>
+  <button class="operation"  onclick="operationsfunc('*')">*</button>
+</div>
+
+<div>
+  <button onclick="displaytext('4')">4</button>
+  <button onclick="displaytext('5')">5</button>
+  <button onclick="displaytext('6')">6</button>
+  <button class="operation" onclick="operationsfunc('-')">-</button>
+</div>
+
+<div>
+  <button onclick="displaytext('1')">1</button>
+  <button onclick="displaytext('2')">2</button>
+  <button onclick="displaytext('3')">3</button>
+  <button class="operation"  onclick="operationsfunc('+')">+</button>
+</div>
+
+<div>
+  <button onclick="displaytext('0')">0</button>
+  <button onclick="displaytext('.')">.</button>
+  <button class="operation"  onclick="compute()">=</button>
+</div>
+
+<script src="calc.js"></script>
+</body>
+</html>
